@@ -1,5 +1,9 @@
 # Harness to Tmux
 
+✨
+🥡  <i>Put AI magic in the box to get more controll</i>
+
+
 A simple utility that automatically launches specific CLI tools (like `claude`, `codex`, `agy`) inside a new, uniquely named `tmux` session.
 
 ## Why?
@@ -20,7 +24,13 @@ If you run the local `tsq` ([TaskSquad](https://github.com/xajik/tasksquad)) dae
 
 ## Installation
 
-Clone the repository and run the installation script:
+You can install the wrapper directly by running:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/xajik/harness-to-tmux/main/install.sh | bash
+```
+
+Alternatively, you can clone the repository and run the script manually:
 
 ```bash
 chmod +x install.sh
