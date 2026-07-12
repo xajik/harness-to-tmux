@@ -45,6 +45,10 @@ run_in_tmux() {
 alias claude="run_in_tmux claude"
 alias codex="run_in_tmux codex"
 alias agy="run_in_tmux agy"
+alias pi="run_in_tmux pi"
+alias forge="run_in_tmux forge"
+alias aider="run_in_tmux aider"
+
 EOF
     echo "Successfully added tmux harness to $ZSHRC_FILE."
 fi
