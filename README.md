@@ -8,6 +8,12 @@ When running interactive or long-running CLI agents, dropping your connection or
 2. You can easily detach and reattach to the session at any time.
 3. The wrapper detects and prevents nested `tmux` sessions if you are already inside one.
 
+## TaskSquad Integration
+
+If you run the local `tsq` ([TaskSquad](https://github.com/xajik/tasksquad)) daemon, its supervisor will automatically monitor the agents running in these `tsq-*` sessions by default. This provides several benefits:
+- **Automatic Monitoring**: The supervisor tracks the status of your agents and provides updates in the portal, alerting you if they become stuck.
+- **Skill Communication**: The supervisor can interact and talk directly with your `tmux` sessions via TaskSquad (`tsq`) skills.
+
 ## Prerequisites
 - `tmux` must be installed.
 - `zsh` and `oh-my-zsh` must be installed.
